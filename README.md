@@ -73,3 +73,6 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 ## Link
 https://www.permify.co/post/jwt-authentication-in-react
 https://viblo.asia/p/authorization-voi-jwt-trong-reactredux-app-GrLZD8nOZk0
+https://www.alibabacloud.com/blog/how-to-implement-authentication-in-reactjs-using-jwt_595820
+
+https://www.bezkoder.com/react-refresh-token/
