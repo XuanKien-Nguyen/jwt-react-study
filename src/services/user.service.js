@@ -1,21 +1,26 @@
 import api from './api';
 
-class UserService {
-    getPublicContent() {
+    const getPublicContent = () => {
         return api.get('/test/all');
     }
 
-    getUserBoard() {
+    const getUserBoard = () => {
         return api.get('/test/user');
     }
 
-    getModeratorBoard() {
+    const getModeratorBoard = () => {
         return api.get('/test/mod');
     }
 
-    getAdminBoard() {
+    const getAdminBoard = () => {
         return api.get('/test/admin');
     }
-}
 
-export default new UserService
+    const UserService = {
+        getPublicContent,
+        getUserBoard,
+        getModeratorBoard, 
+        getAdminBoard,
+    }
+
+export default UserService;
